@@ -85,8 +85,35 @@ input[type = 'radio']{
     border-style: solid;
     
 }
+.pallet {
+    background-color:  #5d79ae;
+    background-color:  #0c0f12;	
+    background-color:  #ccba7c;	
+    background-color:   #413a27;	
+    background-color: #de9b35;
+}
+.descriptions, .descriptions1{
+    color: #413a27;
+}
 .descriptions {
     font-size: 30px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.descriptions1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.descriptions2{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .teamData {
     border-style: solid;

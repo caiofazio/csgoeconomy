@@ -27,20 +27,28 @@ function nextRound(){
                 <img className = 'trCoin' src={LogoTR} alt="Logo TR"/>
             </div>
         </section>
-    <div className = 'contentPage'>    
-        <form className = 'onGame-form'>
-            <div className = 'teams'>
-            <input type="radio" name="imagem" id="i1" />
-            <label for="i1"><img className = 'trTeam' src={LogoTR} alt="TrCoin"/></label>
-            <input type="radio" name="imagem" id="i2" />
-            <label for="i2"><img className = 'ctTeam' src={LogoCT} alt="CTCoin"/></label>
-            </div>
-        </form>
+        <div className = 'contentPage'>    
+            <form className = 'onGame-form'>
+                <div className = 'teams'>
+                    <input type="radio" name="imagem" id="i1" />
+                    <label for="i1"><img className = 'trTeam' src={LogoTR} alt="TrCoin"/></label>
+                    <input type="radio" name="imagem" id="i2" />
+                    <label for="i2"><img className = 'ctTeam' src={LogoCT} alt="CTCoin"/></label>
+                 </div>
+            </form>
         <section className = 'teamData'>
             <h4 className = 'descriptions'> Dinheiro estimado: 10000$ </h4>
+            <section className = 'chances'>
+                <h4 className = 'descriptions1'> Chances de armamento: </h4>
+                <h3 className = 'descriptions2'> Armado completo:  </h3>
+                <h3 className = 'descriptions2'> Forçado(SMGS + Colete):  </h3>
+                <h3 className = 'descriptions2'> Pistol + Colete: </h3>
+                <h3 className = 'descriptions2'> Total Eco: </h3>
+            </section>
+
         </section>
 
-    </div>   
+        </div>   
 
     </div>
      
