@@ -1,0 +1,60 @@
+.welcome-container {
+    width:  100%;
+    max-width: 1120px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-container section.page-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    align-items: center;
+}
+
+.welcome-container section.welcome-text {
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+    color: #5d79ae;
+    
+}
+h1 {
+    color: 	#5d79ae;
+    text-align: center;
+    font-size: 40px;
+}
+.ctCoin{
+    max-height: 60px;
+    margin: 12px;
+}
+.trCoin{
+    max-width: 60px;
+    margin: 12px;
+
+}
+.welcome-button{
+    width: 50%;
+    height: 45px;
+    margin: 30px;
+    background: #5d79ae;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.welcome-button span {
+    font: 400 18px Oswald, sans-serif;
+    font-size: 35px;
+    text-decoration: none !important;
+}
